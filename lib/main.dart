@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
+      // *** Change two properties enable dark mode that follows the operating system seting for light or dark theme
       darkTheme: ThemeData.dark(),
       themeMode: ThemeMode.system,
       home: MyHomePage(title: 'Flutter Demo Home Page'),
