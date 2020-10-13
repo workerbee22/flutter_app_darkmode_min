@@ -1,5 +1,5 @@
-# flutter_app_darkmode_min
+# Flutter Dark Mode Minimal App
 
-Minimal two line changes to add dark mode.
+Default Flutter app, with just two line changes enables dark mode for MaterialApp() apps.
 
 
