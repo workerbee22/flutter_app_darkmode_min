@@ -2,6 +2,12 @@
 
 Default Flutter app, with just two line changes to support light/dark mode on Android and iOS devicess that supoort it.
 
+Two key lines changed in `MaterialApp()`are:
+```
+darkTheme: ThemeData.dark(),
+themeMode: ThemeMode.system,
+```
+
 **Android 10** and above devices that support light/dark mode:
 - Light or dark theme set by Android in Settings or Quick Settings, automatically changes the app theme without doing anything in the app
 - App state is maintained when the operating system changes theme
