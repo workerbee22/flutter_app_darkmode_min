@@ -1,4 +1,4 @@
-# Flutter Dark Mode Minimal App
+# Flutter Dark Mode - Minimal App
 
 Default Flutter app, with just two line changes to support light/dark mode on Android and iOS devicess that supoort it.
 
