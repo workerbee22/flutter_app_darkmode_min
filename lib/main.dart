@@ -1,3 +1,20 @@
+/// Flutter Dark Mode Min
+///
+/// Based on the default Flutter project, this is a basic example app to show light/dark mode operation
+/// on Android and iOS can be implemented.
+/// It relies on the MaterialApp() widget properties of [theme], [darkTheme] and [themeMode] properties. Support
+/// for light and dark mode for Flutter was introduced in February 2019. See the key article here:
+/// https://medium.com/flutter/android-dark-theme-in-flutter-9c8070b8b127
+/// Only two lines of code have been changed from the Flutter default project and yet this enables automatic
+/// setting of a light or dark theme in the app, based on changes coming from the Android or iOS operating system
+/// (rather than a manual switch within the app).
+/// It relies on the implied widget themes provided by the default theme data of ThemeData.light() or ThemeData.dark().
+/// Colors for both light and dark themes come from these two default theme data that Flutter provides.
+///
+/// Note: When the theme is changed on a device, you may get a warning about 'FloatingActionButtons using ThemeData
+/// .accentIconTheme has been deprecated'. This is a framework warning as part of changes to Flutter theming and can
+/// be ignored, it will be removed in future versions of Flutter.
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -99,7 +116,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.display1,
+              style: Theme.of(context).textTheme.headline4,
             ),
           ],
         ),

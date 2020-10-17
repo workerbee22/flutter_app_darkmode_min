@@ -14,7 +14,10 @@ description: A new Flutter application.
 version: 1.0.0+1
 
 environment:
+  # set Dart 2.8 and above with Flutter 1.22 and above
+  # these are not required but keep the project current
   sdk: ">=2.8.0 <3.0.0"
+  flutter: ">=1.22.0"
 
 dependencies:
   flutter:
