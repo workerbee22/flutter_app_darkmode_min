@@ -1,7 +1,7 @@
 /// Flutter Dark Mode Min
 ///
 /// Based on the default Flutter project, this is a basic example app to show light/dark mode operation
-/// on Android and iOS/iPadOS can be implemented.
+/// on Android, iOS/iPadOS, macOS and Windows 10 can be implemented.
 /// Only two lines of code have been changed from the Flutter default project and yet this enables automatic
 /// setting of a light or dark theme in the app, based on changes coming from the Android or iOS operating system
 /// (rather than a manual switch within the app). When the theme is changed, the app state is retained and not lost
