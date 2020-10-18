@@ -27,5 +27,5 @@ themeMode: ThemeMode.system,
 - the app picks up the with the light/dark/auto Appearance as set in macOS in Settings / General.
 
 **Windows**
-- Windowss 10 there is an issues that is currently open preventing the Flutter app listening for the Windows app theme value or chnages to it. See issue here: https://github.com/flutter/flutter/issues/54612
+- Windowss 10 there is an issues that is currently open preventing the Flutter app listening for the Windows app theme value or changes to it. See issue here: https://github.com/flutter/flutter/issues/54612
 
